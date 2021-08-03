@@ -1,0 +1,19 @@
+{
+  "name": "temperature-conversion",
+  "description": "Converts a unit of temperature to different unit of temperature",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GioAceto/temperature-conversion.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GioAceto/temperature-conversion/issues"
+  },
+  "homepage": "https://github.com/GioAceto/temperature-conversion#readme"
+}
