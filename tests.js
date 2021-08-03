@@ -4,6 +4,8 @@ const getCelsius = require('./calculation');
 
 describe('getCelsius', () => {
   it('should convert the provided number in fahrenheit to celsius', () => {
-    expect(getCelsius(32).to.equal(0))
+    let testNum = 32
+
+    expect(getCelsius(testNum)).to.equal(0)
   })
 })
