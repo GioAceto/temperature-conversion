@@ -1,5 +1,5 @@
 const getCelsius = (num) => {
-  let result = (num - 32) * 5556
+  let result = Math.round((num - 32) * 0.5556)
   return result
 }
 
