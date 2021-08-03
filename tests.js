@@ -3,13 +3,21 @@ const { expect } = require('chai');
 const getCelsius = require('./calculation');
 
 describe('getCelsius', () => {
-  it('should convert the provided number in fahrenheit to celsius', () => {
+  it('should correctly convert the freezing temp of water in fahrenheit to celsius', () => {
     let testNum = 32
-    let testNum2 = -4
-    let testNum3 = 84
 
-    expect(getCelsius(testNum)).to.equal(0)
-    expect(getCelsius(testNum2)).to.equal(-20)
-    expect(getCelsius(testNum3)).to.equal(29)
+    expect(getCelsius(testNum)).to.equal(0);
+  })
+
+  it('should correctly convert a negative temp in fahrenheit to celsius', () => {
+    let testNum = -4
+
+    expect(getCelsius(testNum)).to.equal(-20);
+  })
+
+  it('should correctly round the result temp to the closest integer', () => {
+    let testNum = 84
+
+    expect(getCelsius(testNum)).to.equal(29);
   })
 })
