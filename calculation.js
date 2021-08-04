@@ -3,4 +3,9 @@ const getCelsius = (num) => {
   return result
 }
 
-module.exports = getCelsius
+const getFahrenheit = (num) => {
+  let result = Math.round((num * 1.8) + 32)
+  return result
+}
+
+module.exports = { getCelsius, getFahrenheit }
