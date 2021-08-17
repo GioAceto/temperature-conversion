@@ -12,6 +12,13 @@ const getFahrenheit = (num) => {
   return result
 }
 
+const calcF = () => {
+  fahrenheit.value = getFahrenheit(celsius.value)
+}
+
+const calcC = () => {
+  celsius.value = getCelsius(fahrenheit.value)
+}
 
 
 module.exports = { getCelsius, getFahrenheit }
