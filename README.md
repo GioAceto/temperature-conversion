@@ -1,4 +1,4 @@
 # temperature-conversion
-Converts a unit of temperature to a different unit of temperature
+Converts the temperature to celsius or fahrenheit
 
 Includes unit testing with mocha and chai
