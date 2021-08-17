@@ -1,0 +1,26 @@
+{
+  "name": "temperature-conversion",
+  "description": "Converts a unit of temperature to different unit of temperature",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha tests.js",
+    "lint": "./node_modules/.bin/eslint --format codeframe .",
+    "lint:fix": "./node_modules/.bin/eslint --fix --format codeframe ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GioAceto/temperature-conversion.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GioAceto/temperature-conversion/issues"
+  },
+  "homepage": "https://github.com/GioAceto/temperature-conversion#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^7.32.0",
+    "mocha": "^9.0.3"
+  }
+}
